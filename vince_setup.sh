@@ -1,7 +1,7 @@
 ## starting of script
 echo -e "\e[36mstarting setting up device side repo...."
 echo -e "\e[32mDevice tree.."
-rm -rf device/xiaomi/vince && git clone https://github.com/aseelps/device_xiaomi_vince-11 -b DotOS device/xiaomi/vince
+rm -rf device/xiaomi/vince && git clone https://github.com/aseelps/device_xiaomi_vince-11 -b AEX device/xiaomi/vince
 echo -e "\e[32mVendor tree.."
 rm -rf vendor/xiaomi/vince && git clone https://github.com/aseelps/vendor_xiaomi_vince-11 vendor/xiaomi/vince
 echo -e "\e[32mKernel tree.."
