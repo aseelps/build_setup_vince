@@ -13,8 +13,6 @@ rm -rf hardware/qcom-caf/wlan &&  git clone https://android.googlesource.com/pla
 rm -rf hardware/qcom-caf/msm8996/audio && git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_audio -b eleven hardware/qcom-caf/msm8996/audio
 rm -rf hardware/qcom-caf/msm8996/media && git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_media -b eleven hardware/qcom-caf/msm8996/media
 rm -rf hardware/qcom-caf/msm8996/display && git clone https://github.com/PixelExperience/hardware_qcom-caf_msm8996_display -b eleven hardware/qcom-caf/msm8996/display
-rm -rf prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9 && git clone https://github.com/DerpFest-11/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9 --depth 1 prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
-rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 && git clone https://github.com/DerpFest-11/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9  --depth 1 prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
 echo -e "\e[35mfinishing...."
 echo -e "\e[33mDone."
 
