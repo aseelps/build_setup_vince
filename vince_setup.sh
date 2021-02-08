@@ -12,6 +12,8 @@ echo -e "\e[34mSetting up hals...."
 rm -rf hardware/qcom-caf/wlan && cp -r hardware/qcom/wlan hardware/qcom-caf/wlan
 rm -rf vendor/qcom/opensource/data-ipa-cfg-mgr && git clone https://github.com/AOSP-Common/android_vendor_qcom_opensource_data-ipa-cfg-mgr -b 11.0 vendor/qcom/opensource/data-ipa-cfg-mgr
 
+git clone --depth=1 https://github.com/mvaisakh/gcc-arm64.git -b gcc-master prebuilts/gcc/linux-x86/aarch64/aarch64-e
+
 echo -e "\e[35mfinishing...."
 echo -e "\e[33mDone."
 
